@@ -6,9 +6,7 @@ Instead of forcing artificial intelligence into roles it cannot handle, a modern
 
 Here is a practical framework for shifting from an ambiguous AI mandate to engineering actual strategic value in your repository.
 
----
-
-## 🏗️ The AI-Assisted Docs Pipeline
+## The AI-Assisted Docs Pipeline
 
 To safely leverage AI without sacrificing technical accuracy, content ingestion, enrichment, and validation must follow a structured pipeline before reaching production.
 
@@ -52,9 +50,7 @@ graph TD
     style N fill:#fbb,stroke:#333,stroke-width:2px
 ```
 
----
-
-## 🛠️ Operationalizing AI in Docs-as-Code
+## Operationalizing AI in Docs-as-Code
 Rather than treating AI as a magical content generator, embed it into specific, isolated points of your existing CI/CD or authoring workflow.
 
 ### 1. Structure Over Style (Outlining & Ingestion)
@@ -72,17 +68,13 @@ Drafting definitions for industry-standard terminology is essential for content 
 * **The Workflow:** Provide a list of technical terms or specialized acronyms from your codebase.
 * **The Prompt Goal:** Offload the first-pass taxonomy generation and standard definitions to AI, allowing you to focus entirely on editing for your team's authentic voice.
 
----
-
-## 🛡️ Core Rules for AI Governance
+## Core Rules for AI Governance
 
 To keep your documentation reliable, enforce a strict separation between machine-assisted drafting and human-verified publishing:
 
 * **Never Publish Raw Output:** Treat every AI response as an unverified rough draft. It always requires a technical writer's editorial oversight and subject-matter expert (SME) validation.
 * **Automate the Linting:** Integrate automated quality checks into your GitHub Actions. Build workflows to lint Markdown files for forbidden corporate jargon, hallucinated syntax, and broken links before any branch is merged.
-* **Inject Real-World Context:** True documentation value lives in edge cases, specific trade-offs, and troubleshooting guides—nuances that AI cannot predict without human intervention.
+* **Inject Real-World Context:** True documentation value lives in edge cases, specific trade-offs, and troubleshooting guides -nuances that AI cannot predict without human intervention.
 
----
-
-## 📈 Strategic Value
+## Strategic Value
 By pivoting from a "hype-first" AI strategy to a **technical workflow framework**, you transform a vague corporate mandate into a measurable engineering win. You reduce time-to-first-draft, catch compliance gaps earlier in the development lifecycle, and ensure your team's time is spent on complex architecture visualization rather than repetitive drafting.
